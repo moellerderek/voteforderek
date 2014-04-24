@@ -1,88 +1,76 @@
 
 <!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en">
-<![endif]-->
-<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en">
-<![endif]-->
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en">
-<![endif]-->
-<!--[if gt IE 8]><!-->
-<html lang="en" class="no-js">
-  <!--<![endif]-->
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Derek Moeller</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/app.css" rel="stylesheet">
-    <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
-    <script src="//use.typekit.net/ldf0tzf.js"></script>
-    <script>
-      try{Typekit.load();}catch(e){}
-      
-    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Derek Moeller's Projects</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/cover.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
+
   <body>
-    <div id="loading"><img src="img/load.gif"></div>
-    <div id="intro">
-      <!-- Header-->
-      <header class="container pull-left">
-        <div class="row">
-          <div class="span9">
-            <!-- Logo-->
-            <div class="logo">
-              <h1>Derek Moeller</h1>
-              <h2>Excellent Customer Service Meets Tech Space  <span class="bullet">&#149;</span> <span class="gold">Burlingame, CA</span></h2>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Derek Moeller</h3>
+              <ul class="nav masthead-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="span3">
-            <h4>Phone</h4>
-            <p>
-              Call me anytime: <br><a href="tel://602-769-8798">602-769-8798</a>
-              
+
+          <div class="inner cover">
+            <h1 class="cover-heading">Welcome.</h1>
+            <p class="lead">Thi is a demonstration of my knowledge of HTML, CSS, and PHP.</p>
+            <p class="lead">
+              <a href="#" class="btn btn-lg btn-default">Learn more</a>
             </p>
           </div>
-          <div class="span3">
-            <h4>Email</h4>
-            <p>
-              Questions &amp; Inquiries: <br><a href="mailto:helloworld@voteforderek.org">helloworld@voteforderek.org</a>
-              
-            </p>
-          </div>
-          <div class="span3">
-            <h4>Social</h4>
-            <p>
-              <a href="http://twitter.com/derekmolar">Follow me on Twitter</a><br><a href="http://github.com/moellerderek">Look at my projects</a>
-              </p>
-          </div>
-        </div>
-      
-                <div class="back"><a href="#intro">take me back to the top</a></div>
-              </div>
-              <div class="span2"><img src="img/logo.png"></div>
-              <div class="span3">
-                <div class="copy">&copy; 2014 all rights reserved</div>
-              </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
             </div>
           </div>
+
         </div>
+
       </div>
+
     </div>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>
-      window.jQuery || document.write('<script src="/js/vendor/jquery-1.10.2.min.js"><\\/script>')
-      
-    </script>
-    <script src="js/plugins.js?v=3"></script>
-    <script src="js/vendor/superscrollorama.js"></script>
-    <script src="js/main.min.js?v=3"></script>
-    <script>
-      var _gaq=[['_setAccount','UA-4117562-2'],['_trackPageview'],['_trackPageLoadTime']];
-      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-      s.parentNode.insertBefore(g,s)}(document,'script'));
-    </script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/docs.min.js"></script>
   </body>
 </html>
