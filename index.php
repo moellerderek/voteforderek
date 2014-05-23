@@ -48,7 +48,7 @@
 
           <div class="inner cover">
             <h1 class="cover-heading">Welcome.</h1>
-            <p class="lead">Thi is a demonstration of my knowledge of HTML, CSS, and PHP.</p>
+            <p class="lead">This is a demonstration of my knowledge of HTML, CSS, and PHP.</p>
             <p class="lead">
               <a href="#" class="btn btn-lg btn-default">Learn more</a>
             </p>
