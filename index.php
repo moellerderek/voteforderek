@@ -35,7 +35,7 @@
 <br>
 <?php
 
-callMasthead("Derek's Projects");
+callMasthead("Derek Moeller");
 
 ?>
 <br>
