@@ -1,24 +1,28 @@
+<?php 
+	
+	include ('functions.php'); 
+	
+?>
 
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Project Header">
+    <meta name="author" content="Derek Moeller">
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
     <title>Derek Moeller's Projects</title>
+	
+<!-- Google Fonts Library -->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,900' rel='stylesheet' type='text/css'>
 
-    <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Custom CSS -->
+	<link href="/css/bootstrap-derek.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="/css/cover.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <link href="/css/cover-derek.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -28,43 +32,30 @@
   </head>
 
   <body>
+<br>
+<?php
 
-    <div class="site-wrapper">
+callMasthead("Derek's Projects");
 
-      <div class="site-wrapper-inner">
+?>
+<br>
+<br>
 
-        <div class="cover-container">
-
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">Derek Moeller</h3>
-              <ul class="nav masthead-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="inner cover">
-            <h1 class="cover-heading">Welcome.</h1>
-            <p class="lead">This is a demonstration of my knowledge of HTML, CSS, and PHP.</p>
-            <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">Learn more</a>
-            </p>
-          </div>
-
-          <div class="mastfoot">
-            <div class="inner">
-              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
+<div class="inner cover">
+<h1 class="cover-heading">Welcome.</h1>
+	<p class="lead">This is a demonstration of my knowledge of HTML, CSS, and PHP.</p>
+	<p class="lead">
+		<a href="#" class="btn btn-lg btn-default">Learn more</a>
+		</p>
+	</div>
+		
+		<div class="mastfoot">
+			<div class="inner">
+				<p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+			</div>
+		</div>
+	</div>
+</div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

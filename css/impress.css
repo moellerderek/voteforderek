@@ -85,13 +85,13 @@ body {
     font-family: 'PT Sans', sans-serif;
     min-height: 740px;
 
-    background: rgba(217,0,30,.5);
-    /*background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));*/
-    background: -webkit-radial-gradient(rgba(217,0,30,.5), rgb(217,0,30));
-    background:    -moz-radial-gradient(rgba(217,0,30,.5), rgb(217,0,30));
-    background:     -ms-radial-gradient(rgba(217,0,30,.5), rgb(217,0,30));
-    background:      -o-radial-gradient(rgba(217,0,30,.5), rgb(217,0,30));
-    background:         radial-gradient(rgbaßß(217,0,30,.5), rgb(217,0,30));
+    background: rgb(215, 215, 215);
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
+    background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
 }
 
 /*
