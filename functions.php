@@ -17,7 +17,7 @@ function callMasthead($title) {
             			echo '<li class='.'"active"'.'><a href='.'"#"'.'>Home</a></li>';
             			echo '<li><a href='.'"#about"'.'>About</a></li>';
             			echo '<li><a href='.'"#contact"'.'>Contact</a></li>';
-            			echo '<li><a herf='.'"http://numbergenerator.azurewebsites.net"'.'>Number Counter</a></li>';
+            			echo '<li><a herf='.'"http://numbergenerator.azurewebsites.net/?num=42"'.'>Number Counter</a></li>';
             			echo '<li><a herf='.'"http://derek-php-test01.azurewebsites.net/?date=19821008"'.'>Birthday Counter</a></li>';
             		echo '</ul>';
         		echo '</div><!--/'.'.nav-collapse -->';
