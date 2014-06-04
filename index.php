@@ -19,10 +19,13 @@
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,900' rel='stylesheet' type='text/css'>
 
 <!-- Bootstrap Custom CSS -->
+	<link href="/css/cover-derek.css" rel="stylesheet">
 	<link href="/css/bootstrap-derek.css" rel="stylesheet">
+<!-- Bootstrap Core CSS -->
+	<link href="/css/bootstrap.css" rel="stylesheet">
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/cover.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="/css/cover-derek.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
