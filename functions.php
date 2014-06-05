@@ -14,7 +14,7 @@ function callMasthead($title) {
         			echo '</div>';
         			echo '<div class='.'"collapse navbar-collapse"'.'>';
           			echo '<ul class='.'"nav navbar-nav"'.'>';
-            			echo '<li class='.'"active"'.'><a href='.'"#"'.'>Home</a></li>';
+            			echo '<li class='.'"active"'.'><a href='.'"voteforderek.azurewebsites.net"'.'>Home</a></li>';
             			echo '<li><a href='.'"#about"'.'>About</a></li>';
             			echo '<li><a href='.'"#contact"'.'>Contact</a></li>';
             			echo '<li><a href='.'"http://numbergenerator.azurewebsites.net/?num=42"'.'>Number Counter</a></li>';
